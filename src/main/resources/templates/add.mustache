@@ -1,0 +1,37 @@
+<html>
+<body>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    </head>
+
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li class="nav-link px-2 text-secondary"><h1>Добавление пациента</h1></li>
+                </ul>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2"><a class="nav-link active" aria-current="page" href="/"><ya-tr-span data-index="1-0" data-translated="false" data-source-lang="en" data-target-lang="ru" data-value="Home" data-translation="Главная" data-type="trSpan">Главная</ya-tr-span></a></button>
+                    <button type="button" class="btn btn-outline-light me-2"><a class="nav-link active" href="/search"><ya-tr-span data-index="1-0" data-translated="false" data-source-lang="en" data-target-lang="ru" data-value="Contact" data-translation="Поиск пациента" data-type="trSpan">Поиск пациента</ya-tr-span></a></button>
+                    <button type="button" class="btn btn-outline-light me-2"><a class="nav-link active" href="/registration"><ya-tr-span data-index="1-0" data-translated="false" data-source-lang="en" data-target-lang="ru" data-value="Contact" data-translation="Регистрация диагноза" data-type="trSpan">Регистрация диагноза</ya-tr-span></a></button>
+                </div>
+            </div>
+        </div>
+    </header><br><br>
+    <div>
+        <form method="post">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                    <input type="text" name="fio" class="form-control" placeholder="Введите ФИО"><br>
+                    <input type="text" name="passport" class="form-control" placeholder="Введите серию и номер паспорта"><br>
+                    <input type="date" name="dateOfBirth" class="form-control" placeholder="Введите дату рождения"><br>
+                    <input type="text" name="gender" class="form-control" placeholder="Введите пол"><br>
+            </div>
+            <button type="button" class="btn btn-primary">Добавить</button>
+        </form>
+    </div>
+</body>
+</html>
